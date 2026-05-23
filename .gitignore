@@ -1,27 +1,46 @@
-# Virtual environment
-venv/
-.venv/
-
 # Python cache
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+*$py.class
 
-# MacOS
-.DS_Store
+# Virtual environment
+venv/
+.env/
 
-# VSCode
+# Environment variables
+.env
+.env.*
+
+# SQLite database
+*.db
+*.sqlite3
+
+# VS Code
 .vscode/
 
-# JetBrains
-.idea/
+# macOS
+.DS_Store
 
 # Logs
 *.log
 
-# Environment variabless
-.env
+# PyInstaller
+dist/
+build/
 
-.csvvenv/
-__pycache__/
-.DS_Store
+# Jupyter
+.ipynb_checkpoints/
+
+# pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Temporary files
+*.tmp
+*.temp
